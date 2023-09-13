@@ -16,3 +16,15 @@
 
 
 ![image](https://github.com/JunByeon/KotlinAndroidStudio/assets/143871011/d3115500-a997-4751-9b6b-171bde5ee284)
+
+
+
+3rd week
+
+
+![image](https://github.com/JunByeon/KotlinAndroidStudio/assets/143871011/cd58927c-656a-4756-8394-42652842e806)
+
+
+
+
+
