@@ -6,23 +6,19 @@ To Do List
 않아도 외부에서 property만으로 접근이 가능해진다
 
 2. Kotlin 주 생성자 이용하기
---> 주생성자와 부생성자를 함께 사용하자
 
 3. null 안정성 고려해서 프로그램 짜기
---> ?과 ?:를 사용하자
  */
 
-
 class Car(val name : String, var speed : Double = 0.0) {
-    var distance = 0.0
-    constructor(name : String) :
-            this("$name", 0.0)
+    var distance : Double = 0.0
 }
 
 class Track {
     val cars = Array<Car?>(8) {_->null}
     var numCars = 0
-    var time = 0.0
+    var time : Double = 0.0
+        private set // time을 외부에서 읽을 수 있되 set을 하지 않도록 함.
 
     fun addCar(c: Car) {
         cars[numCars] = c
